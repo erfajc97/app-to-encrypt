@@ -62,7 +62,7 @@
 }
 
 button{
-  box-shadow: 5px 5px 12px rgb(0,0,0);
+  box-shadow: 8px 8px 15px rgb(0,0,0);
  
 }
 
@@ -165,5 +165,6 @@ textarea{
 .btn-copiar{
 
   margin-top: 1rem;
-
+  font-size: 25px;
+  padding: 0.5rem 4rem;
 }
