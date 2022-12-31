@@ -150,12 +150,16 @@ textarea{
   padding: 1rem;
   
 }
+.textoModificado{
+  color: #151716;
+}
 
 .btn-encryotado{
   
   background-color: #0A3871;
   color: aliceblue;
   padding: 0 1.8rem;
+ 
 }
 
 .btn-copiar{
