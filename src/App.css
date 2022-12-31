@@ -1,0 +1,165 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container{
+  background: #8e8ba9b3;
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+.containerlogo{
+  display: flex;
+  position: relative;
+  
+}
+.logo{
+  Width: 32px;
+   Height: 48px;
+   position: absolute;
+   bottom: -2.7rem;
+   left: -3rem;
+}
+
+button{
+  box-shadow: 5px 5px 12px rgb(0,0,0);
+ 
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+textarea{
+  width: 80%;
+  height: 300px;
+  margin: 1rem auto;
+  background: #8e8ba900;
+  border: none;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  border-radius: 20px;
+  overflow: hidden;
+  padding-top: 0.5rem;
+  display: flex;
+
+ 
+}
+
+
+::placeholder{
+  color: #0A3871;
+  margin: 0 auto;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 250px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+  
+}
+.infoImg{
+ display: flex;
+
+}
+
+.infoImg p {
+  font-size: smaller;
+  margin-top: 1rem;
+  margin-left: 1rem;
+
+}
+
+.infopng{
+  width: 16px;
+  height: 16px;
+  margin-top: 1.25rem;
+  margin-left: 1rem;
+
+}
+
+.button{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  gap: 1rem;
+  margin-top: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+ 
+}
+
+.textoModificado{
+  background-color: #0a387100;
+  width: 80%;
+  height: 200px;
+  margin: 1rem auto;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: aliceblue;
+  padding: 1rem;
+  
+}
+
+.btn-encryotado{
+  
+  background-color: #0A3871;
+  color: aliceblue;
+  padding: 0 1.8rem;
+}
+
+.btn-copiar{
+
+  margin-top: 1rem;
+
+}
